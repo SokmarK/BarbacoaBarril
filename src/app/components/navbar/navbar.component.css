@@ -1,0 +1,19 @@
+#imglogo {
+    width: 100px;
+    height: 100px;
+}
+
+#sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+p{
+cursor: pointer;
+transition: opacity 0.3s ease;
+}
+
+p:hover{
+    opacity: 40%;
+}

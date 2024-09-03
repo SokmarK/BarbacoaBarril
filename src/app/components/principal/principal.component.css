@@ -1,0 +1,59 @@
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.hbarriles1 {
+    height: 100px;
+    width: 100px;
+}
+
+#henlaces {
+    height: 100px;
+}
+
+#color-hw-titulo {
+    background: #0e0e0e;
+    width: 500px;
+    height: 70px;
+}
+
+#color-productos {
+    background: #0e0e0e;
+}
+
+.img-landing {
+    height: 295px;
+    width: 295px;
+}
+
+.div-color-landing {
+    background: #554040;
+    width: 600px;
+}
+
+.linea-vertical {
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.hover-p {
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.hover-p:hover {
+    opacity: 40%;
+}
