@@ -17,10 +17,6 @@
     width: 100px;
 }
 
-#henlaces {
-    height: 100px;
-}
-
 #color-hw-titulo {
     background: #0e0e0e;
     width: 500px;
@@ -37,7 +33,7 @@
 }
 
 .div-color-landing {
-    background: #554040;
+    /*background*/
     width: 600px;
 }
 
@@ -57,3 +53,8 @@
 .hover-p:hover {
     opacity: 40%;
 }
+
+#color-carousel{
+    background-color: #0e0e0e;
+}
+

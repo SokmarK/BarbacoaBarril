@@ -5,3 +5,16 @@
     margin-left: 80px;
 }
 
+#henlaces {
+    height: 100px;
+}
+
+.hover-p {
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.hover-p:hover {
+    opacity: 40%;
+}
