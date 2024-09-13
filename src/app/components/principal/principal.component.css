@@ -54,7 +54,12 @@
     opacity: 40%;
 }
 
-#color-carousel{
+#color-carousel {
     background-color: #0e0e0e;
 }
 
+.neupho {
+background: linear-gradient(145deg, #5b1717, #6c1b1b);
+box-shadow:  7px 7px 14px #531515,
+             -7px -7px 14px #771e1e;
+}

@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class WhatsappComponent {
 
     openChat() {
-        window.open('https://wa.me/3124949733', '_blank'); 
+        window.open('https://wa.me/+573138509275', '_blank'); 
     }
 
 }
