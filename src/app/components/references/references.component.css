@@ -1,0 +1,21 @@
+.bg-color {
+    background-color: #0e0e0e;
+}
+
+button:hover {
+    background-color: #2b2929;
+}
+
+.img-big {
+    width: 530px;
+    height: auto;
+}
+
+.img-small {
+    width: 200px;
+    height: auto;
+    -webkit-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+}

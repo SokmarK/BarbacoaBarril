@@ -7,6 +7,7 @@ import { ClientsComponent } from './components/clients/clients.component';
 import { AboutComponent } from './components/about/about.component';
 import { AccesoriesComponent } from './components/accesories/accesories.component';
 import { EcoComponent } from './components/eco/eco.component';
+import { ReferencesComponent } from './components/references/references.component';
 
 export const routes: Routes = [
     { path: "", component: PrincipalComponent },
@@ -15,6 +16,7 @@ export const routes: Routes = [
     { path: "contact", component: ContactComponent },
     { path: "clients", component: ClientsComponent },
     { path: "about", component: AboutComponent },
-    { path: "accesories", component: AccesoriesComponent},
-    { path: "eco", component: EcoComponent}
+    { path: "accesories", component: AccesoriesComponent },
+    { path: "eco", component: EcoComponent },
+    { path: "references", component: ReferencesComponent }
 ];
