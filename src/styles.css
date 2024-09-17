@@ -4,8 +4,19 @@ body {
     font-family: "Baloo Bhaijaan 2", sans-serif !important;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .font-title{
     font-family: "Capriola", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
+
+img, iframe, video {
+    max-width: 100%;
+    height: auto;
+}
+
+

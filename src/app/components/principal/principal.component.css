@@ -33,15 +33,7 @@
 }
 
 .div-color-landing {
-    /*background*/
     width: 600px;
-}
-
-.linea-vertical {
-    width: 2px;
-    height: 100px;
-    background-color: white;
-    margin-left: 50px;
 }
 
 .hover-p {
@@ -63,3 +55,4 @@
     box-shadow: 7px 7px 14px #531515,
         -7px -7px 14px #771e1e;
 }
+
