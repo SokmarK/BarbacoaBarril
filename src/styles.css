@@ -2,10 +2,12 @@ body {
     background-color: #651919 !important;
     overflow-x: hidden;
     font-family: "Baloo Bhaijaan 2", sans-serif !important;
+    height: 100% !important;
 }
 
 html{
     overflow-x: hidden;
+    height: 100%;
 }
 
 .font-title{
@@ -19,4 +21,22 @@ img, iframe, video {
     height: auto;
 }
 
+/*  Scrollbar  */
 
+::-webkit-scrollbar {
+    width: 12px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; /* Color de la pista del scrollbar */
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del "pulgar" (la parte que arrastras) */
+    border-radius: 2px; /* Radio del borde del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar cuando está en hover */
+}

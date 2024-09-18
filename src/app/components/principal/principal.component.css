@@ -3,14 +3,12 @@
     object-fit: cover;
 }
 
-
 .carousel-caption {
     bottom: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
 }
-
 
 .hbarriles1 {
     height: 100px;
@@ -19,8 +17,9 @@
 
 #color-hw-titulo {
     background: #0e0e0e;
-    width: 500px;
     height: 70px;
+    max-width: 500px;
+    min-width: 20px;
 }
 
 #color-productos {
@@ -56,3 +55,16 @@
         -7px -7px 14px #771e1e;
 }
 
+.max-w{
+    max-width: 1000px;
+}
+
+.max-w-cards{
+    max-width: 1000px;
+}
+
+@media (max-width: 524px) {
+    .rounded-resp {
+        border-radius: 0% !important;
+    }
+}
