@@ -19,6 +19,8 @@ html{
 img, iframe, video {
     max-width: 100%;
     height: auto;
+    -webkit-user-drag: none; /* Chrome/Safari */
+    
 }
 
 /*  Scrollbar  */

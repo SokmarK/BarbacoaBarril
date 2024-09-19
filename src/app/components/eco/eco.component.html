@@ -1,24 +1,36 @@
 <section class="bg-black p-3">
-    <p class="fw-bold fs-3 text-center text-white">Barriles eco</p>
+    <p class="fw-bold fs-3 text-center text-white">Barriles Eco</p>
 </section>
 
-<div class="row d-flex g-4 p-4">
-    <div class="col-3">
+<section class="d-flex flex-column flex-sm-row justify-content-between align-items-center px-4 my-4">
+    
+    <div class="mb-2 mb-sm-0">
+        <button class="btn bg-color text-white" routerLink="/references">Referencias</button>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row">
+        <button class="btn bg-color text-white mb-2 mb-sm-0" routerLink="/products">Linea premium</button>
+        <button class="btn bg-color text-white ms-0 ms-sm-4" routerLink="/accesories">Accesorios</button>
+    </div>
+</section>
+
+<div class="row d-flex g-4 p-4 pt-0 mb-5">
+    <div class="col-12 col-sm-12 col-md-3">
         <div class="card">
             <img src="..//public/img/barrileco80lb.png" class="card-img-top" alt="">
         </div>
     </div>
-    <div class="col-3">
+    <div class="col-12 col-sm-12 col-md-3">
         <div class="card">
             <img src="..//public/img/barrileco50lb.png" class="card-img-top" alt="">
         </div>
     </div>
-    <div class="col-3">
+    <div class="col-12 col-sm-12 col-md-3">
         <div class="card">
             <img src="..//public/img/barrileco30lb.png" class="card-img-top" alt="">
         </div>
     </div>
-    <div class="col-3">
+    <div class="col-12 col-sm-12 col-md-3">
         <div class="card">
             <img src="..//public/img/barrileco17lb.png" class="card-img-top" alt="">
         </div>
@@ -26,14 +38,5 @@
     
 </div>
 
-<section class="d-flex justify-content-between align-items-center mb-5">
-    
-    <div class="ms-4">
-        <button class="btn bg-color text-white" routerLink="/references">Referencias</button>
-    </div>
 
-    <div class="me-4">
-        <button class="btn bg-color text-white" routerLink="/accesories">Accesorios</button>
-    <button class="btn bg-color text-white ms-4" routerLink="/products">Linea premium</button>
-    </div>
-</section>
+
