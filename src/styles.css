@@ -19,26 +19,26 @@ html{
 img, iframe, video {
     max-width: 100%;
     height: auto;
-    -webkit-user-drag: none; /* Chrome/Safari */
+    -webkit-user-drag: none; 
     
 }
 
 /*  Scrollbar  */
 
 ::-webkit-scrollbar {
-    width: 12px; /* Ancho del scrollbar */
+    width: 12px; 
 }
 
 ::-webkit-scrollbar-track {
-    background: #000000; /* Color de la pista del scrollbar */
+    background: #000000; 
 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888; /* Color del "pulgar" (la parte que arrastras) */
-    border-radius: 2px; /* Radio del borde del pulgar */
+    background: #888; 
+    border-radius: 2px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color del pulgar cuando está en hover */
+    background: #555; 
 }
