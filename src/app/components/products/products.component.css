@@ -10,13 +10,14 @@
 
 .card:hover .card-img-top {
     opacity: 80%;
-    
+
 }
 
 .bg-color {
     background-color: #0e0e0e;
 }
 
-button:hover{
-background-color: #2b2929;
+button:hover {
+    background-color: #2b2929;
 }
+

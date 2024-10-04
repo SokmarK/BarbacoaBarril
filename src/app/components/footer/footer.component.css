@@ -1,3 +1,7 @@
+footer{
+    height: 100%;
+}
+
 .linea-vertical {
     width: 2px;
     height: 100px;
@@ -21,5 +25,16 @@
 
 .max{
     max-width: 1400px;
-    min-width: 300px;
+    min-width: 504px;
 }
+
+.he{
+    height: 40px;
+}
+
+@media (min-width: 576px) {
+    .mw{
+        width: 120px;
+    }
+}
+

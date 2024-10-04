@@ -1,16 +1,17 @@
+p{
+    margin-bottom: 0%;
+}
+
 .story-carousel .carousel-item {
     width: 100%;
-    height: 100vh;
-    background-color: #000;
+    height: 85vh;
     color: white;
-    animation: ease-in;
-    animation-duration: 2s;
 }
 
 .story-carousel .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #color-slide {

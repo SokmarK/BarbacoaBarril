@@ -55,12 +55,16 @@
         -7px -7px 14px #771e1e;
 }
 
-.max-w{
+.max-w {
     max-width: 1000px;
 }
 
-.max-w-cards{
+.max-w-cards {
     max-width: 1000px;
+}
+
+.mse {
+    cursor: pointer;
 }
 
 @media (max-width: 524px) {

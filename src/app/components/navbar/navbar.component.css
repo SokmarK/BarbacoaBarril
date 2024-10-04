@@ -5,7 +5,7 @@
     transition: transform 0.3s ease;
 }
 
-#imglogo:hover{
+#imglogo:hover {
     transform: scale(0.9);
 }
 
@@ -13,13 +13,12 @@
     background-color: #000 !important;
 }
 
-p{
-cursor: pointer;
-transition: opacity 0.3s ease;
-margin: 0%;
+p {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin: 0%;
 }
 
-p:hover{
+p:hover {
     opacity: 40%;
 }
-

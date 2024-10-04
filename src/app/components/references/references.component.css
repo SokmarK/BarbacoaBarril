@@ -8,6 +8,15 @@ button:hover {
 
 .img-big {
     width: 530px;
+    height: 535px;
+    -webkit-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+}
+
+.img-big-1{
+    width: 530px;
     height: auto;
     -webkit-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 12px 12px 29px -4px rgba(0, 0, 0, 0.9);

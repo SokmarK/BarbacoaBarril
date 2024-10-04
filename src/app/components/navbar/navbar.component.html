@@ -1,8 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark p-0 sticky-top" id="sticky-navbar">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-0 sticky-top" id="sticky-navbar">
+    <div class="container-fluid">
         <div class="navbar-brand ps-5">
-            <img src="..//public/img/barbacoabarrilLOGO.png" id="imglogo" routerLink="/" draggable="false">
+            <img src="..//public/img/barbacoabarrilLOGO.png" id="imglogo" routerLink="/" draggable="false" aria-label="Home" alt="">
         </div>
 
         <button class="navbar-toggler bg-white me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -10,18 +9,19 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
-            <ul class="navbar-nav d-flex align-items-center text-center ">
+        <div class="collapse navbar-collapse justify-content-center justify-content-md-end" id="navbarNav">
+            <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <p class="text-white nav-link" routerLink="/products">Nuestros productos</p>
+                    <p><a class="text-white nav-link" routerLink="/products">Nuestros productos</a></p>
                 </li>
                 <li class="nav-item">
-                    <p class="text-white nav-link" routerLink="/contact">Contácto</p>
+                    <p><a class="text-white nav-link" routerLink="/contact">Contácto</a></p>
                 </li>
                 <li class="nav-item">
-                    <p class="text-white nav-link" routerLink="/about">Sobre nosotros</p>
+                    <p><a class="text-white nav-link" routerLink="/about">Sobre nosotros</a></p>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
